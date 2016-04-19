@@ -6,36 +6,11 @@ import {HomeComponent} from './home.component';
 import {ProviderComponent} from './providerlookup.component';
 
 @Component({
-    selector: 'pdt-app',
+    selector: 'app',
     template: `
-          <div class="container-fluid">
-
-    <div class="row">
-
-      <div class="col-xs-12">
-
-        <header></header>
-        <header-nav></header-nav>
-
-      </div>
-
-    </div>
-
-    <div class="row">
-
-      <div class="col-xs-12">
-<providers></providers>
-        <provider></provider>
-        <home></home>
-        
-
-      </div>
-
-    </div>
-
-  </div>
+    <comp1></comp1>
     `,
-    directives:[HomeComponent, HeaderComponent, HeaderNavComponent, ProviderComponent]
+    //directives:[HomeComponent, HeaderComponent, HeaderNavComponent, ProviderComponent]
 })
 export class AppComponent {
 
