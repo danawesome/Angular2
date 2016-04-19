@@ -1,9 +1,4 @@
-import {Component} from 'angular2/core';
-import {HeaderComponent} from './header.component';
-import {HeaderNavComponent} from './header-nav.component';
-
-import {HomeComponent} from './home.component';
-import {ProviderComponent} from './providerlookup.component';
+import {Component} from 'angular2/core'
 
 @Component({
     selector: 'app',
